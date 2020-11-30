@@ -1,0 +1,23 @@
+{
+  "name": "term-todo",
+  "version": "0.0.1",
+  "description": "Todo app via commandline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenjikatahira/term-todo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenjikatahira/term-todo/issues"
+  },
+  "homepage": "https://github.com/kenjikatahira/term-todo#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "minimist": "^1.2.5"
+  }
+}

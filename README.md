@@ -1,10 +1,11 @@
-# term-todo
+# Term-todo
 
-Adicionar todo
-Remover todo
-Listar todo
+A todo list managed with commandline
 
-Importancia/tema por cor
+## Technologies & Tools
+![](https://img.shields.io/badge/Code-Javascript-informational?style=flat&logo=javascript&logoColor=white&color=2bbc8a)
 
-criar pasta .term-todo
+## How to use
 
+### `npm install`
+### `npm start`

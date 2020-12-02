@@ -2,10 +2,10 @@
 
 A simple todo list managed with commandline
 
-todo - lists of entries
-todo add [string] - adds a new entry
-todo remove [index] - removes a entry
-todo clear - removes all entries
+* todo - lists of entries
+* todo add [string] - adds a new entry
+* todo remove [index] - removes a entry
+* todo clear - removes all entries
 
 ## Technologies & Tools
 ![](https://img.shields.io/badge/Code-Javascript-informational?style=flat&logo=javascript&logoColor=white&color=2bbc8a)

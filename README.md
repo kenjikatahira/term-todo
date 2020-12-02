@@ -4,7 +4,7 @@ A simple todo list managed with commandline
 
 Commands :
 
-* todo                 - lists of entries
+* `todo`                 - lists of entries
 * todo add [string]    - adds a new entry
 * todo remove [index]  - removes a entry
 * todo clear           - removes all entries

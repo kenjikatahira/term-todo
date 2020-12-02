@@ -1,18 +1,25 @@
-var argv = require('minimist')(process.argv.slice(2));
+const argv = require('minimist')(process.argv.slice(2));
+
+// commands
+const add = require('./lib/new');
+const list = require('./lib/list');
+const clear = require('./lib/clear');
+const clearChecked = require('./lib/clearChecked');
 
 const cmd = argv._[0];
 
 switch (cmd) {
     case 'add':
-        require('./cmd/new')(argv);
+        add(argv);
         break;
     case 'list':
-        require('./cmd/list')(argv);
+        list(argv);
         break;
     case 'clear':
-        require('./cmd/clear')(argv);
+        clearChecked(argv);
         break;
     default:
-        console.log('erro');
+        console.log('Default');
+        list(argv);
         break;
 }

@@ -6,7 +6,7 @@ Commands :
 
 * `todo`                 - lists of entries
 * `todo add [string]`    - adds a new entry
-* `todo remove [index]`  - removes a entry
+* `todo remove [number]`  - removes a entry by index
 * `todo clear`           - removes all entries
 
 ## Technologies & Tools
